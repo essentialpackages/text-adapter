@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace EssentialPackages.UI.TextAdapters
 {
-	public class TextMeshProUGUIAdapter : TextAdapterBase
+	public class TextMeshProUguiAdapter : TextAdapterBase
 	{
 		[SerializeField] private TextMeshProUGUI _text;
 

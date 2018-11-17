@@ -318,8 +318,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: -302.5}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 567.5, y: -36.11}
+  m_SizeDelta: {x: 1135, y: 40.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &623994930
 MonoBehaviour:
@@ -421,7 +421,7 @@ MonoBehaviour:
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
   m_isInputParsingRequired: 0
-  m_inputSource: 3
+  m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
   - {fileID: 0}
@@ -474,8 +474,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 80, y: -15}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 567.5, y: -8}
+  m_SizeDelta: {x: 1135, y: 16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &861155190
 MonoBehaviour:
@@ -812,9 +812,9 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
+  m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
+  m_ChildControlHeight: 1
 --- !u!1 &1941354958
 GameObject:
   m_ObjectHideFlags: 0
@@ -825,7 +825,7 @@ GameObject:
   - component: {fileID: 1941354959}
   - component: {fileID: 1941354960}
   m_Layer: 0
-  m_Name: TextMeshProUGUIAdapter
+  m_Name: TextMeshProUguiAdapter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
