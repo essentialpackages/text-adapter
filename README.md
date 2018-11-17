@@ -33,4 +33,4 @@ Canvas elements. But it centralizes all scripts affecting text components.
 
 Note that adapter is not really necessary at the moment, because all currently existing adaptees use the same required property. But in the future there might be another Text component not relying on the 'text' property.
 
-![The image shows the benefit of using the adapter pattern for localization](https://github.com/lars-wobus/unity-essential-core/blob/master/resources/custom-adapter-pattern---localization/custom-adapter-pattern.png)
+![The image shows the benefit of using the adapter pattern for localization](https://github.com/essentialpackages/text-adapter/blob/master/resources/custom-adapter-pattern.png)
