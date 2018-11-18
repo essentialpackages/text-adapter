@@ -20,7 +20,7 @@
       <w>180</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>TextMeshProTextAdapter</panel_attributes>
+    <panel_attributes>TextMeshProUguiAdapter</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -45,7 +45,7 @@
       <w>180</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>UnityTextAdapter</panel_attributes>
+    <panel_attributes>TextAdapter</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
