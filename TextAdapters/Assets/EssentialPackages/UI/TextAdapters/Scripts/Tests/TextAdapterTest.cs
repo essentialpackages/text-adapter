@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Reflection;
-using EssentialPackages.UI.TextAdapters.Interfaces;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
@@ -13,7 +11,7 @@ namespace EssentialPackages.UI.TextAdapters.Tests
     public class TextAdapterTest
     {
         private GameObject DummyGameObject { get; set; }
-        private ITextComponent TargetScript { get; set; }
+        private TextAdapter TargetScript { get; set; }
         private Text TextComponent { get; set; }
         private string Id { get; set; }
         private string TextContent { get; set; }
