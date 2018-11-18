@@ -1,6 +1,8 @@
 {
     "name": "_TextAdaptersTest",
-    "references": [],
+    "references": [
+        "_TextAdapters"
+    ],
     "optionalUnityReferences": [
         "TestAssemblies"
     ],
