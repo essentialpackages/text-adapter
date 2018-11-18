@@ -40,4 +40,6 @@ At some point in a project, multiple scripts need access to modify displayed tex
   - While thinking about scene management, I came to the conclusion, that scripts must (un-)register themself to some kind of localization manager. That gave me the idea to implement the (Object) Adapter Pattern. Later on I came to the conclusion to separate the logic for (un-)registration and the logic to change displayed text depending on the selected language. But the Adapter pattern still exists.
 </open>
 
+## Implementation Details
+
 ![The image shows the benefit of using the adapter pattern for localization](https://github.com/essentialpackages/text-adapter/blob/master/resources/custom-adapter-pattern.png)
