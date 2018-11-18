@@ -34,7 +34,7 @@
     <panel_attributes>TextAdapterBase
 --
 +&lt;&lt;get, set&gt;&gt; Id: string
-+&lt;&lt;get, set&gt;&gt; Text: string</panel_attributes>
+/+&lt;&lt;get, set&gt;&gt; Text: string/</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
