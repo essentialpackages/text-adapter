@@ -1,7 +1,8 @@
 {
     "name": "_TextAdaptersTest",
     "references": [
-        "_TextAdapters"
+        "_TextAdapters",
+        "Unity.TextMeshPro"
     ],
     "optionalUnityReferences": [
         "TestAssemblies"
