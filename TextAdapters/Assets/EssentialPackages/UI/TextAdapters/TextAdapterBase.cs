@@ -7,8 +7,12 @@ namespace EssentialPackages.UI.TextAdapters
 	{
 		[SerializeField] private string _id;
 
-		public string Id => _id;
+		public string Id
+		{
+			get { return _id; }
+			set { _id = value; }
+		}
 
-		public abstract void SetText(string value);
+		public abstract string Text { get; set; }
 	}
 }

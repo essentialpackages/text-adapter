@@ -7,9 +7,15 @@ namespace EssentialPackages.UI.TextAdapters
 	{
 		[SerializeField] private TextMeshProUGUI _text;
 
-		public override void SetText(string value)
-		{
-			if (_text != null) _text.text = value;
+		public override string Text {
+			get
+			{
+				return (_text == null) ? null : _text.text;
+			}
+			set
+			{
+				if (_text != null) _text.text = value;
+			}
 		}
 	}
 }
