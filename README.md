@@ -5,7 +5,7 @@ At some point in a project, multiple scripts need access to modify displayed tex
 
 ## Areas Of Application
 - Tables with mutable content 
-- <details open>
+- <details>
   <summary>Text Localization</summary>
   <br/>
   Important note: The information below needs to be reworked!
@@ -50,7 +50,7 @@ At some point in a project, multiple scripts need access to modify displayed tex
 - The package uses Assembly Files. If you don't use assemblies, you should not import them into your existing projects.
 - The package uses TextMesh Pro. If you haven't imported TextMesh Pro yet, compilation errors will occure, because some namespaces
 cannot be found. To fix that problem, you must remove the TextMesh Pro reference in all assembly files and remove TextMeshProUguiAdapter.cs.
-  <details open>
+  <details>
   1.) Select the assembly in the project window.
   
   ![Project Window](https://github.com/essentialpackages/text-adapter/blob/master/resources/ProjectWindow.png)
